@@ -1,8 +1,10 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     
     .logofacebook {
         background-image: url(../pacote-d013/imagens/logo-facebook.jpg);
         border-radius: 180%;
+        min-width: 80px;
+        min-height: 80px;
         
         position: absolute;
         left: 81%;
@@ -12,6 +14,8 @@
     .logogithub {
         background-image: url(../pacote-d013/imagens/logo-github.jpg);
         border-radius: 180%;
+        min-width: 80px;
+        min-height: 80px;
         
         position: absolute;
         left: 3%;
@@ -21,6 +25,8 @@
     .logoinstagram {
         background-image: url(../pacote-d013/imagens/logo-instagram.jpg);
         border-radius: 180%;
+        min-width: 80px;
+        min-height: 80px;
         
         position: absolute;
         left: 3%;
@@ -30,6 +36,8 @@
     .logotwitter {
         background-image: url(../pacote-d013/imagens/logo-twitter.jpg);
         border-radius: 180%;
+        min-width: 80px;
+        min-height: 80px;
         
         position: absolute;
         left: 81%;
@@ -39,6 +47,8 @@
     .logoyoutube {
         background-image: url(../pacote-d013/imagens/logo-youtube.jpg);
         border-radius: 180%;
+        min-width: 80px;
+        min-height: 80px;
         
         position: absolute;
         left: 3%;
@@ -49,6 +59,8 @@
     .home {    
         background-image: url(../pacote-d013/imagens/logo-home.jpg);
         border-radius: 180%;
+        min-width: 80px;
+        min-height: 80px;
         
         position: absolute;
         left: 81%;
