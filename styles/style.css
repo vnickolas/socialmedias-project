@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: antiquewhite;
+}
+.fundo {
+    background-image: url(../pacote-d013/imagens/fundo-madeira.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.iphone {
+    background-image: url(../pacote-d013/imagens/frame-iphone.png);
+    max-width: 295px;
+    min-width: 295px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
+    max-height: 602px;
+    min-height: 602px;
+    background-size: 100% 100%; /*deixa a imagem aparecendo 100% dentro da largura e altura que você configurou*/
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+iframe {
+    width: 260px;
+    height: 470px;
+    background-size: cover;
+    position: absolute;
+    left: 52%;
+    top: 50%;
+    border-radius: 10px 10px 10px 10px;
+    transform: translate(-52%, -50%);
+}
+.logofacebook {
+    display: block;
+    background-image: url(../pacote-d013/imagens/logo-facebook.jpg);
+    max-width: 100px;
+    min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
+    max-height: 100px;
+    min-height: 100px;
+    background-size: 100% 100%; 
+    border-radius: 180%;
+    
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    transition: 0.5s;
+}
+.logogithub {
+    display: block;
+    background-image: url(../pacote-d013/imagens/logo-github.jpg);
+    max-width: 100px;
+    min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
+    max-height: 100px;
+    min-height: 100px;
+    background-size: 100% 100%; 
+    border-radius: 180%;
+    
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    transition: 0.5s;
+}
+.logoinstagram {
+    display: block;
+    background-image: url(../pacote-d013/imagens/logo-instagram.jpg);
+    max-width: 100px;
+    min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
+    max-height: 100px;
+    min-height: 100px;
+    background-size: 100% 100%; 
+    border-radius: 180%;
+    
+    position: absolute;
+    left: 90%;
+    top: 35%;
+    transition: 0.5s;
+}
+.logotwitter {
+    display: block;
+    background-image: url(../pacote-d013/imagens/logo-twitter.jpg);
+    max-width: 100px;
+    min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
+    max-height: 100px;
+    min-height: 100px;
+    background-size: 100% 100%; 
+    border-radius: 180%;
+    
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transition: 0.5s;
+}
+.logoyoutube {
+    display: block;
+    background-image: url(../pacote-d013/imagens/logo-youtube.jpg);
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    background-size: 100% 100%; 
+    border-radius: 180%;
+    
+    position: absolute;
+    left: 90%;
+    top: 65%;
+    transition: 0.5s;
+}
+
+.home {
+    display: block;
+    background-image: url(../pacote-d013/imagens/logo-home.jpg);
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    background-size: 100% 100%; 
+    border-radius: 180%;
+    
+    position: absolute;
+    left: 90%;
+    top: 80%;
+    transition: 0.5s;
+}
+div:hover {
+    padding: 5px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px 4px black;
+}

@@ -1,0 +1,93 @@
+@media screen and (max-width: 1200px) {
+    
+    .logofacebook {
+        display: inline;
+        background-image: url(../pacote-d013/imagens/logo-facebook.jpg);
+        max-width: 100px;
+        min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
+        max-height: 100px;
+        min-height: 100px;
+        background-size: 100% 100%; 
+        border-radius: 180%;
+        
+        position: absolute;
+        left: 70%;
+        top: 25%;
+        transition: 0.5s;
+    }
+    .logogithub {
+        display: inline;
+        background-image: url(../pacote-d013/imagens/logo-github.jpg);
+        max-width: 100px;
+        min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
+        max-height: 100px;
+        min-height: 100px;
+        background-size: 100% 100%; 
+        border-radius: 180%;
+        
+        position: absolute;
+        left: 85%;
+        top: 25%;
+        transition: 0.5s;
+    }
+    .logoinstagram {
+        display: inline;
+        background-image: url(../pacote-d013/imagens/logo-instagram.jpg);
+        max-width: 100px;
+        min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
+        max-height: 100px;
+        min-height: 100px;
+        background-size: 100% 100%; 
+        border-radius: 180%;
+        
+        position: absolute;
+        left: 85%;
+        top: 45%;
+        transition: 0.5s;
+    }
+    .logotwitter {
+        display: inline;
+        background-image: url(../pacote-d013/imagens/logo-twitter.jpg);
+        max-width: 100px;
+        min-width: 100px; /*usando 'max-min' deixa o celular fixado nesse tamanho*/
+        max-height: 100px;
+        min-height: 100px;
+        background-size: 100% 100%; 
+        border-radius: 180%;
+        
+        position: absolute;
+        left: 70%;
+        top: 45%;
+        transition: 0.5s;
+    }
+    .logoyoutube {
+        display: inline;
+        background-image: url(../pacote-d013/imagens/logo-youtube.jpg);
+        max-width: 100px;
+        min-width: 100px;
+        max-height: 100px;
+        min-height: 100px;
+        background-size: 100% 100%; 
+        border-radius: 180%;
+        
+        position: absolute;
+        left: 85%;
+        top: 65%;
+        transition: 0.5s;
+    }
+    
+    .home {    
+        display: inline;
+        background-image: url(../pacote-d013/imagens/logo-home.jpg);
+        max-width: 100px;
+        min-width: 100px;
+        max-height: 100px;
+        min-height: 100px;
+        background-size: 100% 100%;
+        border-radius: 180%;
+        position: absolute;
+        left: 70%;
+        top: 65%;
+        transition: 0.5s;
+    }
+}
